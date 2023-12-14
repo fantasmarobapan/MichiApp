@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MichiApp</string>
+
+    <string name="Ancho">Ancho de la imagen</string>
+    <string name="Largo">largo de la imagen</string>
+    <string name="Generar">Generar imagen</string>
+
+    <string-array name="opciones">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+    </string-array>
 </resources>
