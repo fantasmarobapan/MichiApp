@@ -31,12 +31,17 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="409dp"
+        android:id="@+id/miSpinner"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:entries="@array/opciones_array"
+        android:minHeight="48dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.487"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
