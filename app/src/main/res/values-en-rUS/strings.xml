@@ -9,4 +9,19 @@
     <string name="Info">" This app was created by RobaPandas Studio for all cat lovers. The app generates a random image of the different breeds of cats that exist in the world, so the user can learn more about these furry friends."</string>
     <string name="info2">Developed by Diego Castro Ruiz and Adolfo Fernández for RobaPandas Studio</string>
     <string name="Ancho">Image width</string>
+
+    <string-array name="opciones_array">
+        <item>Random</item>
+        <item>Aegean</item>
+        <item>American Wirehair</item>
+        <item>Balinese</item>
+        <item>Bambino</item>
+        <item>Bengal</item>
+        <item>Birman</item>
+        <item>Bombay</item>
+        <item>Cheetoh</item>
+        <item>Japanese Bobtail</item>
+        <item>Khao Manee</item>
+    </string-array>
+
 </resources>

@@ -7,6 +7,21 @@
     android:background="@drawable/patrongatos3"
     tools:context=".HomeScreen">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toobar"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:background="@color/Crema"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Michi App"
+        app:titleMargin="4dp"
+        app:titleMarginStart="150dp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:titleTextColor="@color/Brown" />
+
     <TextView
         android:id="@+id/saludo"
         android:layout_width="323dp"
@@ -35,7 +50,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.413"
-        app:srcCompat="@mipmap/michiappicon_round" />
+        app:srcCompat="@mipmap/michiappicon" />
 
     <Button
         android:id="@+id/startButton"

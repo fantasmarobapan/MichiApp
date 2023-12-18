@@ -9,4 +9,19 @@
     <string name="Info">" Esta aplicación fue creada por RobaPandas Studio para todos los amantes de los gatos.  La app genera una imagen aleatoria de los diferentes raza de gatos que existen en el mundo, así el usuario puede conocer más de estos amigos peludos."</string>
     <string name="info2">"Desarrollado por Diego Castro Ruiz y Adolfo Fernández  para RobaPandas Studio "</string>
     <string name="Ancho">Ancho de la imagen</string>
+
+    <string-array name="opciones_array">
+        <item>Al azar</item>
+        <item>Egeo</item>
+        <item>Americano de pelo áspero</item>
+        <item>Balinés</item>
+        <item>Bambino</item>
+        <item>Bengala</item>
+        <item>Birmano</item>
+        <item>Bombay</item>
+        <item>Leopardo</item>
+        <item>Bobtail japonés</item>
+        <item>Khao Manee</item>
+    </string-array>
+
 </resources>

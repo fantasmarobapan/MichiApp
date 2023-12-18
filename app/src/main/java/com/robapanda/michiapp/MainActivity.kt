@@ -46,9 +46,6 @@ class MainActivity : AppCompatActivity(), ApiCallBack {
                 // Obtener la posición seleccionada
                 val posicionSeleccionada = position
 
-                // Hacer algo con la posición seleccionada
-                Toast.makeText(applicationContext, "Posición seleccionada: $posicionSeleccionada", Toast.LENGTH_SHORT).show()
-
                 // Llamar a la función para procesar según la posición
                 if (posicionSeleccionada == 0) {
                     // Si la posición es 0, usar URLAPI
@@ -70,9 +67,6 @@ class MainActivity : AppCompatActivity(), ApiCallBack {
         GenerarBoton.setOnClickListener {
             // Obtener la posición seleccionada
             val posicionSeleccionada = miSpinner.selectedItemPosition
-
-            // Hacer algo con la posición seleccionada
-            Toast.makeText(applicationContext, "Posición seleccionada: $posicionSeleccionada", Toast.LENGTH_SHORT).show()
 
             // Llamar a la función para procesar según la posición
             if (posicionSeleccionada == 0) {
