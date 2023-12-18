@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Peach">#FBD896</color>
+    <color name="Otro">#59441C</color>
+    <color name="Brown">#59273F</color>
+    <color name="Crema">#FFFFF5</color>
+
 </resources>

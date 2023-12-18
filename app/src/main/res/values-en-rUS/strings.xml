@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MichiApp</string>
+    <string name="Largo">Image length</string>
+    <string name="Generar">"Generate image "</string>
+    <string name="Hola">¡Hi, Meowfriend!</string>
+    <string name="Empezar">Let\'s get started!</string>
+    <string name="AbText">About</string>
+    <string name="Info">" This app was created by RobaPandas Studio for all cat lovers. The app generates a random image of the different breeds of cats that exist in the world, so the user can learn more about these furry friends."</string>
+    <string name="info2">Developed by Diego Castro Ruiz and Adolfo Fernández for RobaPandas Studio</string>
+    <string name="Ancho">Image width</string>
+</resources>

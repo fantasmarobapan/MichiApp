@@ -4,14 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/patrongatos3"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="239dp"
+        android:layout_height="72dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/Otro"
+        android:fontFamily="casual"
         android:text="@string/Generar"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -27,13 +33,14 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06"
+        app:layout_constraintVertical_bias="0.25"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Spinner
         android:id="@+id/miSpinner"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:background="@color/Crema"
         android:entries="@array/opciones_array"
         android:minHeight="48dp"
         android:visibility="visible"

@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">MichiApp</string>
 
-    <string name="Ancho">Ancho de la imagen</string>
-    <string name="Largo">largo de la imagen</string>
+    <string name="Largo">Largo de la imagen</string>
     <string name="Generar">Generar imagen</string>
+
+    <string name="Hola">¡Hola, Miaumigo!</string>
+    <string name="Empezar">¡Comenzemos!</string>
+    <string name="AbText">Acerca de </string>
+    <string name="Info">"\nEsta aplicación fue creada por RobaPandas Studio para todos los amantes de los gatos.  La app genera una imagen aleatoria de los diferentes raza de gatos que existen en el mundo, así el usuario puede conocer más de estos amigos peludos."</string>
+    <string name="info2">"\nDesarrollado por Diego Castro Ruiz y Adolfo Fernández  para RobaPandas Studio "</string>
 
     <string-array name="opciones_array">
         <item>Al azar</item>
@@ -18,4 +23,5 @@
         <item>Bobtail japonés</item>
         <item>Khao Manee</item>
     </string-array>
+    <string name="Ancho">Ancho de la imagen</string>
 </resources>
