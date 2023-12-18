@@ -1,0 +1,10 @@
+
+# Recuperacion de imagen de gato al azar 
+[
+    {
+        "id": "GQ61BDToD",
+        "url": "https://cdn2.thecatapi.com/images/GQ61BDToD.jpg",
+        "width": 3504,
+        "height": 2336
+    }
+]

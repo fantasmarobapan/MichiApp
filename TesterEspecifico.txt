@@ -1,0 +1,10 @@
+# Recuperacion de imagen de gato especifico
+
+[
+    {
+        "id": "hV2A_LW2n",
+        "url": "https://cdn2.thecatapi.com/images/hV2A_LW2n.jpg",
+        "width": 1080,
+        "height": 1080
+    }
+]
