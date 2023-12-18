@@ -12,7 +12,6 @@ import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.robapanda.michiapp.api.ApiCallBack
 import com.robapanda.michiapp.api.ApiTask
-import com.squareup.picasso.Picasso
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
@@ -91,7 +90,8 @@ class MainActivity : AppCompatActivity(), ApiCallBack {
             val jsonArray = JSONArray(result)
             val jsonObject = jsonArray.getJSONObject(0)
             val url = jsonObject.getString("url")
-            Picasso.get().load(url).into(imagen)
+            Glide.with(this).load(url).into(imagen)
+            //Picasso.get().load(url).into(imagen)
         } catch (e: JSONException) {
             e.printStackTrace()
             Toast.makeText(this, "Error al procesar JSON", Toast.LENGTH_LONG).show()
